@@ -188,8 +188,8 @@ class App extends React.Component {
 
   handleUpload() {
     const target = {
-      board: 'arduino:samd:mkr1000',
-      port: '/dev/ttyACM1',
+      board: 'arduino:avr:nano:cpu=atmega328old',
+      port: 'COM12',
       network: false
     };
 
